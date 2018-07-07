@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "297321308332",
+    "firebase_url": "https://gabmore-26d07.firebaseio.com",
+    "project_id": "gabmore-26d07",
+    "storage_bucket": "gabmore-26d07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297321308332:android:63230ad824c59e28",
+        "android_client_info": {
+          "package_name": "com.example.android.gabmore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297321308332-j13nal5ggn0m5du8psai1a29ualduftk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.gabmore",
+            "certificate_hash": "b99d880dd648de9810f6c33f092301a69c3fa93e"
+          }
+        },
+        {
+          "client_id": "297321308332-bverndc9rs6h1pljnrvkeeh3magp5k4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo1Z2OJUxWwdHfqBVBw8mvKji4VsEgC_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297321308332-bverndc9rs6h1pljnrvkeeh3magp5k4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

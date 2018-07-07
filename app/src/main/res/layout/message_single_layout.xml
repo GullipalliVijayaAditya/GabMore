@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/message_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp">
+
+    <FrameLayout
+        android:id="@+id/left_arrow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/chat_msg_arrow"
+        android:rotation="180">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/message"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/chat_msg_background"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/message_text"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="Hey this is a message, look!"
+            android:textColor="@android:color/black"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/added_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/time_text"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingTop="2dp"
+            android:text="Some User"
+            android:textIsSelectable="true"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/right_arrow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/message"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/chat_msg_arrow"
+        android:rotation="180"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

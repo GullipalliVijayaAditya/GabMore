@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:background="@drawable/start"
+    >
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:text="NEED A NEW ACCOUNT? REGISTER"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_login_btn"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <Button
+        android:id="@+id/start_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp"
+        android:text="SIGN IN"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
